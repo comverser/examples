@@ -40,8 +40,3 @@ source ~/.zshrc
 ```
 
 # share
-- https://docs.google.com/spreadsheets/d/e/2PACX-1vQy6s73-FvsiC7WlV8UBlf5v1QgRCfw_FcB4bhAEIR03QKPUOYMZKVnwsFLdybrYXWjSWeftWcgWf55/pubhtml?gid=0&single=true
-- https://docs.google.com/presentation/d/14jZemcJiOdzk1R3XaWmyKkFAEnpyiFgcA24BGE-LrWk/edit#slide=id.g120f9a7da37_0_0
-- https://garrulous-piano-1c5.notion.site/1474b2bcebe84e1dbbabbfb9db64cbf2?v=8ae78953a0254028b84e374fa3c177b4
-- https://drive.google.com/drive/folders/1prfdFZLUfXytfgT-2kmq6n-SIiIwToGr?usp=sharing
-
