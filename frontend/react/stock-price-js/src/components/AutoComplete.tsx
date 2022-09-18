@@ -40,7 +40,6 @@ export const AutoComplete = () => {
   };
 
   useEffect(() => {
-    let isMounted = true;
     const fetchData = async () => {
       try {
         const response = await finnHub.get("search", {
@@ -49,12 +48,7 @@ export const AutoComplete = () => {
           },
         });
 
-        if (isMounted) {
-          console.debug("AutoComplete.tsx is mounted");
-          setResults(response.data.result);
-        } else {
-          console.debug("Does such a case exist on AutoComplete.tsx?");
-        }
+        setResults(response.data.result);
       } catch (err) {}
     };
 

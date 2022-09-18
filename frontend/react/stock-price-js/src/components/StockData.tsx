@@ -4,7 +4,6 @@ export const StockData = ({ symbol }) => {
   const [stockData, setStockData] = useState();
 
   useEffect(() => {
-    let isMounted = true;
     const fetchData = async () => {
       try {
         const response = await finnHub.get("/stock/profile2", {
@@ -12,19 +11,12 @@ export const StockData = ({ symbol }) => {
             symbol,
           },
         });
-        console.log(response);
-        if (isMounted) {
-          console.log("StockData.tsx mounted");
-          setStockData(response.data);
-        } else {
-          console.log("StockData.tsx is not mounted yet");
-        }
+        setStockData(response.data);
       } catch (err) {
         console.log(err);
       }
     };
     fetchData();
-    return () => (isMounted = false);
   }, [symbol]);
   return (
     <div>

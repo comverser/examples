@@ -24,7 +24,6 @@ export const StockList: React.FC = () => {
   };
 
   useEffect(() => {
-    let isMounted = true;
     const fetchData = async () => {
       try {
         const responses = await Promise.all(
@@ -42,21 +41,11 @@ export const StockList: React.FC = () => {
           };
         });
 
-        // setStock(data);
-        if (isMounted) {
-          console.debug("StockList.tsx is mounted");
-          setStock(data);
-        } else {
-          console.debug("Does such a case exist?");
-        }
+        setStock(data);
       } catch (err) {}
     };
 
     fetchData();
-
-    return () => {
-      isMounted = false;
-    };
   }, [watchList]);
 
   const handleStockSelect = (symbol) => {
