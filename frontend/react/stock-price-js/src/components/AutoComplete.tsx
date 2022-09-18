@@ -1,5 +1,4 @@
 import React, { useContext, useEffect, useState } from "react";
-import PropTypes from "prop-types";
 
 import { WatchListContext } from "../context/watchListContext";
 import finnHub from "../apis/finnHub";
@@ -7,11 +6,11 @@ import finnHub from "../apis/finnHub";
 export const AutoComplete = () => {
   const [search, setSearch] = useState("");
   const [results, setResults] = useState([]);
-
   const { addStock } = useContext(WatchListContext);
 
   const renderDropdown = () => {
     const dropDownClass = search ? "show" : null;
+
     return (
       <ul
         style={{
@@ -27,7 +26,10 @@ export const AutoComplete = () => {
             <li
               key={result.symbol}
               className="dropdown-item"
-              onClick={addStsock(result.symbol)}
+              onClick={() => {
+                addStock(result.symbol);
+                setSearch("");
+              }}
             >
               {result.description} ({result.symbol})
             </li>
@@ -82,5 +84,3 @@ export const AutoComplete = () => {
     </div>
   );
 };
-
-AutoComplete.propTypes = {};

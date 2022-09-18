@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import PropTypes from "prop-types";
+import { useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import { WatchListContext } from "../context/watchListContext";
@@ -11,9 +11,10 @@ type StockType = {
   symbol: string;
 };
 
-export const StockList = () => {
+export const StockList: React.FC = () => {
   const [stock, setStock] = useState<StockType[]>();
-  const { watchList } = useContext(WatchListContext);
+  const { watchList, deleteStock } = useContext(WatchListContext);
+  const navigate = useNavigate();
 
   const changeColor = (change: number) => {
     return change > 0 ? "success" : "danger";
@@ -58,6 +59,10 @@ export const StockList = () => {
     };
   }, [watchList]);
 
+  const handleStockSelect = (symbol) => {
+    navigate(`detail/${symbol}`);
+  };
+
   return (
     <div>
       <table className="table hover mt-5">
@@ -76,7 +81,12 @@ export const StockList = () => {
         <tbody>
           {stock?.map((stockData) => {
             return (
-              <tr className="table-row" key={stockData.symbol}>
+              <tr
+                style={{ cursor: "pointer" }}
+                onClick={() => handleStockSelect(stockData.symbol)}
+                className="table-row"
+                key={stockData.symbol}
+              >
                 <th scope="row">{stockData.symbol}</th>
                 <td>{stockData.data.c}</td>
                 <td className={`text-${changeColor(stockData.data.d)}`}>
@@ -85,13 +95,23 @@ export const StockList = () => {
                 </td>
                 <td className={`text-${changeColor(stockData.data.dp)}`}>
                   {stockData.data.dp}
-
                   {renderIcon(stockData.data.dp)}
                 </td>
                 <td>{stockData.data.h}</td>
                 <td>{stockData.data.l}</td>
                 <td>{stockData.data.o}</td>
                 <td>{stockData.data.pc}</td>
+                <td>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      deleteStock(stockData.symbol);
+                    }}
+                    className="btn btn-danger btn-sm ml-3 d-inline-block delete-button"
+                  >
+                    Remove
+                  </button>
+                </td>
               </tr>
             );
           })}
@@ -100,5 +120,3 @@ export const StockList = () => {
     </div>
   );
 };
-
-StockList.propTypes = {};
