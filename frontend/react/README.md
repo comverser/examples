@@ -6,6 +6,9 @@
 
 - [GitHub](https://github.com/piyush-eon/react-typescript-taskify)
 
+### [Styled Components Crash Course & Project](https://youtu.be/02zO0hZmwnw)
+- [GitHub](https://github.com/bradtraversy/huddle_styled_components)
+
 ### [How to create a React app without using create-react-app](https://dev.to/ivadyhabimana/how-to-create-a-react-app-without-using-create-react-app-a-step-by-step-guide-30nl)
 
 - [How to Set Up React.JS Without create-react-app](https://www.youtube.com/watch?v=ddUqNwTpFyM)
