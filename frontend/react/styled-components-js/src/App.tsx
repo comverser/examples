@@ -21,16 +21,14 @@ const theme = {
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <>
-        <GlobalStyles />
-        <Header />
-        <Container>
-          {content.map((item, index) => (
-            <Card key={index} item={item} />
-          ))}
-        </Container>
-        <Footer />
-      </>
+      <GlobalStyles />
+      <Header />
+      <Container>
+        {content.map((item, index) => (
+          <Card key={index} item={item} />
+        ))}
+      </Container>
+      <Footer />
     </ThemeProvider>
   );
 }
