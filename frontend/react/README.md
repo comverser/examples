@@ -1,6 +1,24 @@
 # React app examples
 
-## Basic
+## Components
+
+### [Single and multiple select](https://youtu.be/bAJlYgeovlg)
+
+## Application 
+
+### [React JavaScript Framework for Beginners – Project-Based Course](https://youtu.be/u6gSSpfsoOQ)
+
+- [TeamMemberAllocationApp](https://github.com/GavinLonDigital/TeamMemberAllocationApp)
+
+- Meals app
+
+- Stock price
+
+## Mis
+
+### [Redux Tutorial - Beginner to Advanced](https://youtu.be/zrs7u6bdbUw)
+
+- [GitHub](https://github.com/Nikhilthadani/Redux-Shopping-Cart-App)
 
 ### [React & TypeScript - Course for Beginners](https://youtu.be/FJDVKeh7RJI)
 
@@ -10,14 +28,6 @@
 
 - [GitHub](https://github.com/bradtraversy/huddle_styled_components)
 
-### [Redux Tutorial - Beginner to Advanced](https://youtu.be/zrs7u6bdbUw)
-
-- [GitHub](https://github.com/Nikhilthadani/Redux-Shopping-Cart-App)
-
 ### [How to create a React app without using create-react-app](https://dev.to/ivadyhabimana/how-to-create-a-react-app-without-using-create-react-app-a-step-by-step-guide-30nl)
 
 - [How to Set Up React.JS Without create-react-app](https://www.youtube.com/watch?v=ddUqNwTpFyM)
-
-### [React JavaScript Framework for Beginners – Project-Based Course](https://youtu.be/u6gSSpfsoOQ)
-
-- [TeamMemberAllocationApp](https://github.com/GavinLonDigital/TeamMemberAllocationApp)
