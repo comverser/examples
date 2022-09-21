@@ -18,6 +18,10 @@
 
 ### [React Testing Course for Beginners – Code and Test 3 Apps](https://youtu.be/8vfQ6SWBZ-U)
 
+- https://github.com/nadvolod/react-web-app
+- https://github.com/nadvolod/js-code/tree/master/birthday-reminder
+- https://github.com/nadvolod/js-code/tree/master/dev-portfolio
+
 ### [Redux Tutorial - Beginner to Advanced](https://youtu.be/zrs7u6bdbUw)
 
 - [GitHub](https://github.com/Nikhilthadani/Redux-Shopping-Cart-App)
