@@ -16,6 +16,8 @@
 
 ## Mis
 
+### [React Testing Course for Beginners – Code and Test 3 Apps](https://youtu.be/8vfQ6SWBZ-U)
+
 ### [Redux Tutorial - Beginner to Advanced](https://youtu.be/zrs7u6bdbUw)
 
 - [GitHub](https://github.com/Nikhilthadani/Redux-Shopping-Cart-App)
@@ -31,3 +33,4 @@
 ### [How to create a React app without using create-react-app](https://dev.to/ivadyhabimana/how-to-create-a-react-app-without-using-create-react-app-a-step-by-step-guide-30nl)
 
 - [How to Set Up React.JS Without create-react-app](https://www.youtube.com/watch?v=ddUqNwTpFyM)
+
