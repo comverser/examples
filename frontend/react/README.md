@@ -4,7 +4,9 @@
 
 ### [Single and multiple select](https://youtu.be/bAJlYgeovlg)
 
-## Application 
+## Application
+
+### [How To Create An Advanced Shopping Cart With React and TypeScript](https://youtu.be/lATafp15HWA)
 
 ### [React JavaScript Framework for Beginners – Project-Based Course](https://youtu.be/u6gSSpfsoOQ)
 
@@ -37,4 +39,3 @@
 ### [How to create a React app without using create-react-app](https://dev.to/ivadyhabimana/how-to-create-a-react-app-without-using-create-react-app-a-step-by-step-guide-30nl)
 
 - [How to Set Up React.JS Without create-react-app](https://www.youtube.com/watch?v=ddUqNwTpFyM)
-
