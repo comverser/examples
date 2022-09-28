@@ -4,6 +4,14 @@
 
 ### [Single and multiple select](https://youtu.be/bAJlYgeovlg)
 
+
+## Web3 Application
+
+### [Build and Deploy a Web 3.0 Cryptocurrency Exchange Decentralized Application](https://youtu.be/Y89q6T1r1Yg)
+
+### [Code a Uniswap V3 Frontend that Swaps Tokens | ReactJS, Uniswap V3 SDK, AlphaRouter, EthersJS](https://youtu.be/IZb6A_UPUqk)
+
+
 ## Application
 
 ### [How To Create An Advanced Shopping Cart With React and TypeScript](https://youtu.be/lATafp15HWA)
@@ -15,6 +23,7 @@
 - Meals app
 
 - Stock price
+
 
 ## Mis
 
