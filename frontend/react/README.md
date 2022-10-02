@@ -9,6 +9,8 @@
 
 ### [Build and Deploy a Web 3.0 Cryptocurrency Exchange Decentralized Application](https://youtu.be/Y89q6T1r1Yg)
 
+- [GitHub](https://github.com/adrianhajdin/project_web3_uniswap)
+
 ### [Code a Uniswap V3 Frontend that Swaps Tokens | ReactJS, Uniswap V3 SDK, AlphaRouter, EthersJS](https://youtu.be/IZb6A_UPUqk)
 
 
