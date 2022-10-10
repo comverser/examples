@@ -1,9 +1,11 @@
-# React app examples
+# [Atomic Design Methodology](https://atomicdesign.bradfrost.com/chapter-2/)
 
-## Components
+## Organisms
 
 ### [Single and multiple select](https://youtu.be/bAJlYgeovlg)
 
+
+# React app examples
 
 ## Web3 Application
 
@@ -14,7 +16,7 @@
 ### [Code a Uniswap V3 Frontend that Swaps Tokens | ReactJS, Uniswap V3 SDK, AlphaRouter, EthersJS](https://youtu.be/IZb6A_UPUqk)
 
 
-## Application
+## Web2 Application
 
 ### [How To Create An Advanced Shopping Cart With React and TypeScript](https://youtu.be/lATafp15HWA)
 
@@ -27,7 +29,13 @@
 - Stock price
 
 
-## Mis
+## Basics
+### [6 State Mistakes Every Junior React Developer Makes](https://youtu.be/Fhu5cu864ag)
+
+### [All useEffect Mistakes Every Junior React Developer Makes](https://youtu.be/QQYeipc_cik)
+
+
+## Misc
 
 ### [React Testing Course for Beginners – Code and Test 3 Apps](https://youtu.be/8vfQ6SWBZ-U)
 
@@ -50,3 +58,4 @@
 ### [How to create a React app without using create-react-app](https://dev.to/ivadyhabimana/how-to-create-a-react-app-without-using-create-react-app-a-step-by-step-guide-30nl)
 
 - [How to Set Up React.JS Without create-react-app](https://www.youtube.com/watch?v=ddUqNwTpFyM)
+
