@@ -34,6 +34,8 @@
 
 ### [All useEffect Mistakes Every Junior React Developer Makes](https://youtu.be/QQYeipc_cik)
 
+### [Top 6 React Hook Mistakes Beginners Make](https://youtu.be/GGo3MVBFr1A)
+
 
 ## Misc
 
