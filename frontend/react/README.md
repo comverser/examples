@@ -45,6 +45,10 @@
 - https://github.com/nadvolod/js-code/tree/master/birthday-reminder
 - https://github.com/nadvolod/js-code/tree/master/dev-portfolio
 
+### [Redux Toolkit Tutorial – JavaScript State Management Library](https://youtu.be/bbkBuqC1rU4)
+
+- [GitHub](https://github.com/john-smilga/redux-toolkit-tutorial)
+
 ### [Redux Tutorial - Beginner to Advanced](https://youtu.be/zrs7u6bdbUw)
 
 - [GitHub](https://github.com/Nikhilthadani/Redux-Shopping-Cart-App)
