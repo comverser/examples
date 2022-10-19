@@ -6,6 +6,8 @@
 
 ### [Multistep Form Custom Hook With React And TypeScript](https://youtu.be/uDCBSnWkuH0)
 
+### [Searchbar](https://youtu.be/E1cklb4aeXA)
+
 # React app examples
 
 ## Web3 Application
