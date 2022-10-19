@@ -33,11 +33,14 @@
 
 
 ## Basics
+
 ### [6 State Mistakes Every Junior React Developer Makes](https://youtu.be/Fhu5cu864ag)
 
 ### [All useEffect Mistakes Every Junior React Developer Makes](https://youtu.be/QQYeipc_cik)
 
 ### [Top 6 React Hook Mistakes Beginners Make](https://youtu.be/GGo3MVBFr1A)
+
+### [Learn useMemo In 10 Minutes](https://youtu.be/THL1OPn72vo)
 
 
 ## Misc
