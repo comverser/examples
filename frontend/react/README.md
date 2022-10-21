@@ -40,7 +40,7 @@
 
 ### [Top 6 React Hook Mistakes Beginners Make](https://youtu.be/GGo3MVBFr1A)
 
-### [Learn useMemo In 10 Minutes](https://youtu.be/THL1OPn72vo)
+### [React Hooks](https://www.youtube.com/playlist?list=PLZlA0Gpn_vH8EtggFGERCwMY5u5hOjf-h)
 
 
 ## Misc
