@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-tutorial",
+  "version": "1.0.0",
+  "description": "All the course files for the Tailwind CSS tutorial on the Net Ninja YouTube channel.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+    "server": "live-server public --no-css-inject",
+    "watch": "npx tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamshaunjp/tailwind-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamshaunjp/tailwind-tutorial/issues"
+  },
+  "homepage": "https://github.com/iamshaunjp/tailwind-tutorial#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "tailwindcss": "^3.2.4"
+  }
+}
