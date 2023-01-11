@@ -1,5 +1,5 @@
 # Ethers.js by Example
-Learn how to use ethers.js from these examples
+[Learn how to use ethers.js from these examples](https://github.com/dappuniversity/ethers_examples)
 
 ## Technology Stack & Tools
 
