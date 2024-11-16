@@ -1,0 +1,20 @@
+meta {
+  name: post_handler
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000/
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Co",
+    "age": 16,
+    "role": "admin",
+    "email": "cody"
+  }
+}
