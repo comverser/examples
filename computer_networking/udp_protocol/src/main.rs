@@ -11,6 +11,9 @@ fn main() {
     let mut buffer = [0; 1024];
 
     loop {
+        // Clear the buffer before receiving new data
+        buffer.iter_mut().for_each(|byte| *byte = 0);
+
         // Receive data from the socket
         let (size, source) = socket.recv_from(&mut buffer).unwrap();
 
