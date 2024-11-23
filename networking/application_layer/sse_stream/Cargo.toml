@@ -1,0 +1,20 @@
+[package]
+name = "sse_stream"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.9"
+chrono = "0.4.38"
+futures = "0.3.31"
+reqwest = { version = "0.12.9", features = ["stream"] }
+tokio = { version = "1.41.1", features = ["full"] }
+tokio-stream = "0.1.16"
+
+[[bin]]
+name = "sse_server"
+path = "src/server.rs"
+
+[[bin]]
+name = "sse_client"
+path = "src/client.rs"
