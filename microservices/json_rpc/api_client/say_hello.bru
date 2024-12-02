@@ -1,0 +1,19 @@
+meta {
+  name: say_hello
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "jsonrpc": "2.0",
+    "method": "say_hello",
+    "id": 13
+  }
+}

@@ -1,0 +1,20 @@
+meta {
+  name: add
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3000
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "jsonrpc": "2.0",
+    "method": "add",
+    "params": [5,13],
+    "id": 134
+  }
+}
